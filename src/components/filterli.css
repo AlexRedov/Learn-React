@@ -1,0 +1,17 @@
+.filtered-list__input {
+    padding: 4px 8px;
+    border: 1px solid;
+    border-radius: 4px;
+  }
+  
+  .filtered-list__list {
+    margin-top: 8px;
+  }
+  
+  .filtered-list__item {
+    margin-top: 4px;
+  }
+  
+  .filtered-list__note {
+    margin-top: 8px;
+  }
