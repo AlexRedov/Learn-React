@@ -19,10 +19,8 @@ class FilterLi extends React.Component {
   }
 
   render() {
-  
-  	const arrayToShow = this.props.items.filter(item => (
-      item.startsWith(this.state.filter)
-    ));
+    const arrayToShow = items.filter(item => item.startsWith(this.state.filter));
+  	
     return (
       <div className="filtered-list">
         <input className="filtered-list__input" onChange = {event => this.onChange(event)}></input>

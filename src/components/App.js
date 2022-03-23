@@ -4,8 +4,9 @@ import Container from './container';
 import RenderPropComponent from './simple';
 import SimpleHOC from './simplHOC';
 import HistoryAPIRoute from './HistoryAPIRoute';
-//import FilterLi from './FilterLi';
+import FilterLi from './FilterLi';
 import ReactRouterRoute from './react-router-route';
+import Routing from './Routing';
 
 import {InputWithNameValidation, InputWithAllInputValidation} from './withRequired';
 import {InputWithNameAndEmailValidationRenderProp, InputWithNameValidationRenderProp} from './wrapper'
@@ -42,9 +43,9 @@ function App() {
       <ReactRouterRoute/>
       <br/>
       <div>
-        {/* <FilterLi/> */} 
+        <FilterLi/> 
       </div>
-
+      <Routing/>
     </>
   );
 }
